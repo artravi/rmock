@@ -1,0 +1,15 @@
+### Get all users
+GET http://localhost:8080/users
+Accept: application/json
+
+###
+
+### Get a user by ID
+GET http://localhost:8080/users/1
+Accept: application/json
+
+###
+
+### Get a non-existing user
+GET http://localhost:8080/users/999
+Accept: application/json
